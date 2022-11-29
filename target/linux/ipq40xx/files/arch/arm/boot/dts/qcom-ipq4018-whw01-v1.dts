@@ -303,6 +303,24 @@
 	status = "okay";
 };
 
+&gmac {
+	status = "okay";
+};
+
+&switch {
+	status = "okay";
+};
+
+&swport4 {
+	status = "okay";
+	label = "ethernet2";
+};
+
+&swport5 {
+	status = "okay";
+	label = "ethernet1";
+};
+
 &wifi0 {
 	status = "okay";
 	qcom,ath10k-calibration-variant = "linksys-whw01-v1";
